@@ -4,6 +4,7 @@ let valid = [];
 const pfs = fs
   .readFileSync('d4a.txt')
   .toString()
+  .trim()
   .split(/\n/);
 
 pfs.forEach(pf => {
