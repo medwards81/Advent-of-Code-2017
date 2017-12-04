@@ -41,6 +41,7 @@ console.log({ validPfs, validPfLen, invalidPfs, invalidPfLen });
 //console.log({ valid });
 console.log(valid.length);
 
+// https://codereview.stackexchange.com/questions/99247/determining-if-two-words-are-anagrams
 function isAnagram(word1, word2) {
   if (typeof word1 !== 'string' || typeof word2 !== 'string') {
     throw new Error('isAnagram requires two strings to be passed.');
